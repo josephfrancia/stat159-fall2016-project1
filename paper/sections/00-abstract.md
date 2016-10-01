@@ -2,6 +2,7 @@ Joseph Francia
 Professor Gaston Sanchez  
 Stats 159  
 30 September 2016  
+
 ***
 #Abstract
 ***
