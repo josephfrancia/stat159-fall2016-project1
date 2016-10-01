@@ -135,15 +135,15 @@ the next section of this paper, I am going to be talking about another
 tool that helps us make our projects reproducible: **Makefiles**.\
        So what's a **Makefile**? A **Makefile** is a special file that,
 along with the tool **Make**, allows us to run shell commands with ease.
-Running the **Makefile** on your terminal will cause all commands in the
-**Makefile** to be run. **Makefiles** are important for quite a few
+Running the **Makefile** on your terminal will cause some commands in
+the **Makefile** to be run. **Makefiles** are important for quite a few
 reasons. For one, they can save us quite a bit of time. Instead of
 having to type out a bunch of shell commands (and potentially forgetting
-which shell commands to type), running the **Makefile** will run all of
-the shell commands at once. When navigating through various datasets and
-files one is using for a large project, we can potentially save a lot of
-time using a **Makefile**. More importantly, however, using
-**Makefiles** makes reproducing one’s code much easier.\
+which shell commands to type), running the **Makefile** will run some of
+the shell commands on your **Makefile**. When navigating through various
+datasets and files one is using for a large project, we can potentially
+save a lot of time using a **Makefile**. More importantly, however,
+using **Makefiles** makes reproducing one’s code much easier.\
        Up until this class, I have never had any experience with
 **Makefiles** before. In addition, I have never had experience with a
 language that needed to be compiled before, so I did not quite
@@ -174,14 +174,11 @@ can just save a **Markdown** file as an **HTML** by clicking “Save As.”
 The advantage of using **Pandoc** commands is that we can write these
 **Pandoc** commands into a **Makefile**, thus allowing us to automate
 and document our file conversion process. Instead of having to manually
-open a bunch of files and clicking “Save As,” we can instead write our
-commands to a **Makefile** and then convert them all at once with a
-one-word command in the **Terminal**:
-
-    make  
-
-In the next section, we are going to discuss one of the file types that
-Pandoc works with: **Markdown**.\
+open a bunch of files and combining them into one document, we can
+instead write our commands to a **Makefile** and then convert them all
+at once with a few simple commands in Terminal. In the next section, we
+are going to discuss one of the file types that Pandoc works with:
+**Markdown**.\
 ![Markdown](https://raw.githubusercontent.com/ucb-stat159/stat159-fall-2016/master/projects/proj01/images/markdown-logo.png)\
        **Markdown** is an alternative to Word and plain text editors,
 and it allows us to format our essays or reports with ease. As the
